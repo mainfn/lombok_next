@@ -1,13 +1,6 @@
-extern crate proc_macro;
 use proc_macro::TokenStream;
 use quote::quote;
-use syn::{
-    parse_macro_input, parse_str,
-    punctuated::Punctuated,
-    spanned::Spanned,
-    token::{Comma, Token},
-    Attribute, Data, DeriveInput, Field, Fields, Ident, ItemStruct, Path, Type,
-};
+use syn::{parse_macro_input, spanned::Spanned, Attribute, Data, DeriveInput, Fields, Ident};
 
 #[proc_macro_derive(Getter, attributes(skip_getter))]
 pub fn derive_getter(input: TokenStream) -> TokenStream {

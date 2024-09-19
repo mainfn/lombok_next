@@ -1,4 +1,6 @@
-use rombok::Getter;
+#![allow(dead_code)]
+
+use lombok_next::Getter;
 
 #[derive(Getter)]
 struct User {

@@ -1,7 +1,17 @@
 [package]
-name = "rombok"
-version = "0.1.0"
+name = "lombok_next"
+version = "0.0.1"
+rust-version = "1.80"
+documentation = "https://docs.rs/lombok_next"
 edition = "2021"
+authors = ["mainfn"]
+repository = "https://github.com/mainfn/lombok_next"
+license = "MIT"
+license-file = "LICENSE"
+keywords = ["lombok", "lombok_next", "java", "getter", "setter"]
+categories = ["development-tools"]
+description = "A Rust library that mimics the functionality of Java's Lombok"
+readme = "README.md"
 
 [lib]
 proc-macro = true

@@ -1,4 +1,6 @@
-use rombok::{Getter, Setter};
+#![allow(dead_code)]
+
+use lombok_next::{Getter, Setter};
 
 #[derive(Setter, Getter)]
 struct User {
